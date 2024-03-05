@@ -1,0 +1,48 @@
+h1
+{
+    color: #04aa6d;
+    font-size: x-large;
+    text-align: center;
+}
+*
+{
+    box-sizing: border-box;
+}
+/*style iputs*/
+input[type=text],select,textarea
+{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid#ccc;
+    margin-top: 16px;
+    resize: vertical;
+}
+input[type=submit]
+{
+    background-color: #11c580;
+    padding: 25px;
+    height:5px;
+    cursor: pointer;
+    font-family: arial,tahoma;
+    
+}
+.column, input[type=submit]
+{
+    width: 25%;
+    margin-top: 0;
+    font-family: arial,tahoma;
+    align-items: center;
+}
+input[type=submmit]:hover
+{
+    background-color:white;
+    padding: 30px;
+
+}
+/*style the container/cotact sectio*/
+.contaier
+{
+    border-radius: 5px;
+    background-color: #504b4b;
+    padding: 10px;
+}
